@@ -1470,3 +1470,6 @@ a {
     width: 100%;
   }
 }
+.hidden-field {
+  display: none;
+}
