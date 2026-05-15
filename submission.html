@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Submit Manuscript | Journal of Ecology and Environmental Management</title>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- TOP BAR -->
+  <div class="top-bar">
+    <div class="container top-bar-content">
+      <div>
+        <span>e-ISSN: 0000-0000</span>
+        <span class="divider">|</span>
+        <span>p-ISSN: 0000-0000</span>
+      </div>
+
+      <div>
+        <span>journal.ecology@example.com</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="container header-content">
+      <div class="brand">
+        <div class="brand-logo">JEML</div>
+        <div>
+          <h1>Journal of Ecology and Environmental Management</h1>
+          <p>Ecology • Environment • Sustainability • Coastal Resilience</p>
+        </div>
+      </div>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Open menu">
+        ☰
+      </button>
+    </div>
+  </header>
+
+  <!-- NAVIGATION -->
+  <nav class="navbar">
+    <div class="container nav-links" id="navLinks">
+      <a href="index.html">Home</a>
+      <a href="index.html#about">About Journal</a>
+      <a href="index.html#current">Current Issue</a>
+      <a href="index.html#archive">Archive</a>
+      <a href="submission.html" class="active-link">Submission</a>
+      <a href="index.html#editorial">Editorial Board</a>
+      <a href="index.html#contact">Contact</a>
+    </div>
+  </nav>
+
+  <!-- SUBMISSION HERO -->
+  <section class="submission-hero">
+    <div class="submission-hero-overlay"></div>
+
+    <div class="container submission-hero-content">
+      <span class="hero-label">Author Center</span>
+      <h2>Submit Your Manuscript</h2>
+      <p>
+        Prepare your manuscript carefully and complete the submission information below.
+        The editorial team will conduct an initial screening before peer review.
+      </p>
+    </div>
+  </section>
+
+  <!-- SUBMISSION PAGE CONTENT -->
+  <main class="container submission-layout">
+
+    <!-- LEFT CONTENT -->
+    <section class="submission-main">
+
+      <!-- AUTHOR GUIDELINES -->
+      <section class="content-card">
+        <div class="section-heading">
+          <p>Before Submission</p>
+          <h2>Author Guidelines</h2>
+        </div>
+
+        <p>
+          Authors are required to ensure that the submitted manuscript is original,
+          has not been published elsewhere, and is not currently under consideration
+          by another journal. The manuscript should follow the journal scope and
+          formatting requirements.
+        </p>
+
+        <div class="guideline-grid">
+          <div class="guideline-card">
+            <span>01</span>
+            <h3>Originality</h3>
+            <p>The manuscript must be original and free from plagiarism.</p>
+          </div>
+
+          <div class="guideline-card">
+            <span>02</span>
+            <h3>Scope Relevance</h3>
+            <p>The topic should relate to ecology, environment, coastal studies, or sustainability.</p>
+          </div>
+
+          <div class="guideline-card">
+            <span>03</span>
+            <h3>Manuscript Format</h3>
+            <p>Use the journal template and follow the prescribed structure.</p>
+          </div>
+
+          <div class="guideline-card">
+            <span>04</span>
+            <h3>Ethics Statement</h3>
+            <p>Authors must comply with research and publication ethics.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- SUBMISSION PROCESS -->
+      <section class="content-card">
+        <div class="section-heading">
+          <p>Editorial Workflow</p>
+          <h2>Submission Process</h2>
+        </div>
+
+        <div class="process-timeline">
+          <div class="process-item">
+            <div class="process-number">1</div>
+            <div>
+              <h3>Manuscript Submission</h3>
+              <p>Author completes the submission form and uploads manuscript files.</p>
+            </div>
+          </div>
+
+          <div class="process-item">
+            <div class="process-number">2</div>
+            <div>
+              <h3>Editorial Screening</h3>
+              <p>The editorial office checks scope, formatting, completeness, and ethics compliance.</p>
+            </div>
+          </div>
+
+          <div class="process-item">
+            <div class="process-number">3</div>
+            <div>
+              <h3>Peer Review</h3>
+              <p>The manuscript is reviewed by qualified reviewers using a blind review process.</p>
+            </div>
+          </div>
+
+          <div class="process-item">
+            <div class="process-number">4</div>
+            <div>
+              <h3>Revision and Decision</h3>
+              <p>Authors revise the manuscript based on reviewer and editor comments.</p>
+            </div>
+          </div>
+
+          <div class="process-item">
+            <div class="process-number">5</div>
+            <div>
+              <h3>Publication</h3>
+              <p>Accepted manuscripts are copyedited, formatted, and published in the journal issue.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SUBMISSION FORM -->
+      <section class="content-card" id="submission-form">
+        <div class="section-heading">
+          <p>Submission Form</p>
+          <h2>Manuscript Information</h2>
+        </div>
+
+        <p class="form-intro">
+          Please complete the form below. Fields marked with an asterisk (*) are required.
+          For GitHub Pages, this form is currently a front-end display. To receive real
+          submissions, connect it later to Google Forms, Formspree, Netlify Forms, or a backend service.
+        </p>
+
+        <form class="journal-form" id="journalSubmissionForm">
+
+          <!-- SECTION 1 -->
+          <div class="form-section">
+            <h3>1. Corresponding Author Information</h3>
+
+            <div class="form-grid">
+              <div class="form-group">
+                <label for="authorName">Full Name *</label>
+                <input type="text" id="authorName" name="authorName" placeholder="Enter full name" required />
+              </div>
+
+              <div class="form-group">
+                <label for="authorEmail">Email Address *</label>
+                <input type="email" id="authorEmail" name="authorEmail" placeholder="name@example.com" required />
+              </div>
+
+              <div class="form-group">
+                <label for="affiliation">Institution / Affiliation *</label>
+                <input type="text" id="affiliation" name="affiliation" placeholder="University / Institution" required />
+              </div>
+
+              <div class="form-group">
+                <label for="country">Country *</label>
+                <input type="text" id="country" name="country" placeholder="Country" required />
+              </div>
+
+              <div class="form-group">
+                <label for="orcid">ORCID ID</label>
+                <input type="text" id="orcid" name="orcid" placeholder="0000-0000-0000-0000" />
+              </div>
+
+              <div class="form-group">
+                <label for="phone">Phone / WhatsApp</label>
+                <input type="text" id="phone" name="phone" placeholder="+62..." />
+              </div>
+            </div>
+          </div>
+
+          <!-- SECTION 2 -->
+          <div class="form-section">
+            <h3>2. Manuscript Details</h3>
+
+            <div class="form-group">
+              <label for="manuscriptTitle">Manuscript Title *</label>
+              <input type="text" id="manuscriptTitle" name="manuscriptTitle" placeholder="Enter manuscript title" required />
+            </div>
+
+            <div class="form-grid">
+              <div class="form-group">
+                <label for="articleType">Article Type *</label>
+                <select id="articleType" name="articleType" required>
+                  <option value="">Select article type</option>
+                  <option value="Research Article">Research Article</option>
+                  <option value="Review Article">Review Article</option>
+                  <option value="Short Communication">Short Communication</option>
+                  <option value="Policy Brief">Policy Brief</option>
+                  <option value="Case Study">Case Study</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="field">Field / Scope *</label>
+                <select id="field" name="field" required>
+                  <option value="">Select field</option>
+                  <option value="Ecology">Ecology</option>
+                  <option value="Environmental Management">Environmental Management</option>
+                  <option value="Coastal and Marine Environment">Coastal and Marine Environment</option>
+                  <option value="Biodiversity Conservation">Biodiversity Conservation</option>
+                  <option value="Climate Change">Climate Change</option>
+                  <option value="Sustainable Development">Sustainable Development</option>
+                  <option value="Environmental Policy and Governance">Environmental Policy and Governance</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="abstract">Abstract *</label>
+              <textarea id="abstract" name="abstract" rows="7" placeholder="Write abstract here..." required></textarea>
+              <small>Recommended length: 150–250 words.</small>
+            </div>
+
+            <div class="form-group">
+              <label for="keywords">Keywords *</label>
+              <input type="text" id="keywords" name="keywords" placeholder="Example: mangrove, coastal resilience, ecology, sustainability" required />
+              <small>Separate keywords using commas.</small>
+            </div>
+
+            <div class="form-group">
+              <label for="coauthors">Co-Authors</label>
+              <textarea id="coauthors" name="coauthors" rows="4" placeholder="Write co-author names and affiliations"></textarea>
+            </div>
+          </div>
+
+          <!-- SECTION 3 -->
+          <div class="form-section">
+            <h3>3. File Upload Information</h3>
+
+            <div class="upload-note">
+              <strong>Important:</strong>
+              GitHub Pages cannot process file uploads directly. This file input is for interface design only.
+              For real submission, connect the form to Google Forms, Formspree, Netlify Forms, or email workflow.
+            </div>
+
+            <div class="form-grid">
+              <div class="form-group">
+                <label for="manuscriptFile">Main Manuscript File *</label>
+                <input type="file" id="manuscriptFile" name="manuscriptFile" accept=".doc,.docx,.pdf" required />
+                <small>Accepted format: .doc, .docx, .pdf</small>
+              </div>
+
+              <div class="form-group">
+                <label for="supplementaryFile">Supplementary File</label>
+                <input type="file" id="supplementaryFile" name="supplementaryFile" accept=".doc,.docx,.pdf,.xls,.xlsx,.zip" />
+                <small>Optional supporting data or additional documents.</small>
+              </div>
+            </div>
+          </div>
+
+          <!-- SECTION 4 -->
+          <div class="form-section">
+            <h3>4. Declarations</h3>
+
+            <div class="checkbox-group">
+              <label>
+                <input type="checkbox" required />
+                <span>The manuscript is original and has not been published elsewhere. *</span>
+              </label>
+
+              <label>
+                <input type="checkbox" required />
+                <span>The manuscript is not currently under review by another journal. *</span>
+              </label>
+
+              <label>
+                <input type="checkbox" required />
+                <span>All authors have approved the manuscript submission. *</span>
+              </label>
+
+              <label>
+                <input type="checkbox" required />
+                <span>The manuscript complies with research and publication ethics. *</span>
+              </label>
+            </div>
+          </div>
+
+          <!-- SECTION 5 -->
+          <div class="form-section">
+            <h3>5. Additional Notes</h3>
+
+            <div class="form-group">
+              <label for="comments">Comments for Editor</label>
+              <textarea id="comments" name="comments" rows="5" placeholder="Write any notes for the editorial team"></textarea>
+            </div>
+          </div>
+
+          <div class="form-actions">
+            <button type="reset" class="btn-reset">Reset Form</button>
+            <button type="submit" class="btn-submit">Submit Manuscript</button>
+          </div>
+
+          <div class="form-message" id="formMessage"></div>
+
+        </form>
+      </section>
+
+    </section>
+
+    <!-- RIGHT SIDEBAR -->
+    <aside class="submission-sidebar">
+
+      <div class="side-card call-card">
+        <h3>Ready to Submit?</h3>
+        <p>
+          Make sure your manuscript follows the journal template and publication ethics.
+        </p>
+        <a href="#submission-form" class="submit-button">Go to Submission Form</a>
+      </div>
+
+      <div class="side-card">
+        <h3>Submission Checklist</h3>
+        <ul class="checklist">
+          <li>Manuscript file</li>
+          <li>Title and abstract</li>
+          <li>Keywords</li>
+          <li>Author information</li>
+          <li>Affiliation details</li>
+          <li>Ethics declaration</li>
+        </ul>
+      </div>
+
+      <div class="side-card">
+        <h3>Accepted File Format</h3>
+        <ul class="index-list">
+          <li>.doc</li>
+          <li>.docx</li>
+          <li>.pdf</li>
+          <li>.xls / .xlsx for supplementary data</li>
+        </ul>
+      </div>
+
+      <div class="side-card journal-info">
+        <h3>Editorial Contact</h3>
+        <p><strong>Email:</strong><br />journal.ecology@example.com</p>
+        <p><strong>Office:</strong><br />Jakarta, Indonesia</p>
+      </div>
+
+    </aside>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <h3>JEML</h3>
+        <p>
+          Journal of Ecology and Environmental Management publishes scientific works
+          in ecology, environment, conservation, sustainability, and coastal resilience.
+        </p>
+      </div>
+
+      <div>
+        <h3>Quick Links</h3>
+        <a href="index.html">Home</a>
+        <a href="index.html#about">About Journal</a>
+        <a href="index.html#current">Current Issue</a>
+        <a href="submission.html">Submission</a>
+      </div>
+
+      <div>
+        <h3>Contact</h3>
+        <p>Jakarta, Indonesia</p>
+        <p>journal.ecology@example.com</p>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>© 2026 Journal of Ecology and Environmental Management. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">↑</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
