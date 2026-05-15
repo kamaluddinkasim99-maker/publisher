@@ -36,3 +36,20 @@ if (backToTop) {
     });
   });
 }
+const journalSubmissionForm = document.getElementById("journalSubmissionForm");
+const formMessage = document.getElementById("formMessage");
+
+if (journalSubmissionForm && formMessage) {
+  journalSubmissionForm.addEventListener("submit", function (event) {
+    event.preventDefault();
+
+    formMessage.classList.add("success");
+    formMessage.innerHTML =
+      "Thank you. Your manuscript information has been recorded in this demo form. To receive real submissions, please connect this form to Google Forms, Formspree, Netlify Forms, or a backend service.";
+
+    journalSubmissionForm.scrollIntoView({
+      behavior: "smooth",
+      block: "end"
+    });
+  });
+}
