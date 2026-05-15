@@ -688,3 +688,21 @@ a {
     white-space: normal;
   }
 }
+/* FORCE HEADER IMAGE DISPLAY */
+.journal-hero {
+  width: 100%;
+  min-height: 220px;
+  background-color: #dff6f7;
+  overflow: hidden;
+  border-bottom: 6px solid #1f7a4d;
+}
+
+.journal-hero img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  min-height: 220px;
+  display: block;
+  object-fit: cover;
+  object-position: center;
+}
