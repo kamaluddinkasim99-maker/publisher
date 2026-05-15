@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Focus and Scope | Journal of Ecology and Environmental Management</title>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- TOP BAR -->
+  <div class="top-bar">
+    <div class="container top-bar-content">
+      <div>
+        <span>e-ISSN: 0000-0000</span>
+        <span class="divider">|</span>
+        <span>p-ISSN: 0000-0000</span>
+      </div>
+
+      <div>
+        <span>journal.ecology@example.com</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="container header-content">
+      <div class="brand">
+        <div class="brand-logo">JEEM</div>
+        <div>
+          <h1>Journal of Ecology and Environmental Management</h1>
+          <p>Ecology • Environment • Sustainability • Coastal Resilience</p>
+        </div>
+      </div>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Open menu">
+        ☰
+      </button>
+    </div>
+  </header>
+
+  <!-- NAVIGATION -->
+  <nav class="navbar">
+    <div class="container nav-links" id="navLinks">
+      <a href="index.html">Home</a>
+      <a href="index.html#about">About Journal</a>
+      <a href="index.html#current">Current Issue</a>
+      <a href="index.html#archive">Archive</a>
+      <a href="submission.html">Submission</a>
+      <a href="index.html#editorial">Editorial Board</a>
+      <a href="index.html#contact">Contact</a>
+    </div>
+  </nav>
+
+  <!-- FOCUS HERO -->
+  <section class="focus-hero">
+    <div class="container focus-hero-content">
+      <span class="hero-label">Journal Scope</span>
+      <h2>Focus and Scope</h2>
+      <p>
+        Journal of Ecology and Environmental Management (JEEM) publishes scholarly
+        works that advance ecological knowledge, environmental management, marine
+        and coastal sustainability, fisheries governance, and evidence-based policy.
+      </p>
+    </div>
+  </section>
+
+  <!-- MAIN CONTENT -->
+  <main class="container focus-layout">
+
+    <!-- MAIN ARTICLE -->
+    <section class="focus-main">
+
+      <!-- STATEMENT -->
+      <section class="content-card" id="journal-statement">
+        <div class="section-heading">
+          <p>Journal Statement</p>
+          <h2>Scope of the Journal</h2>
+        </div>
+
+        <p>
+          Journal of Ecology and Environmental Management (JEEM) is an open access
+          scholarly journal dedicated to publishing high-quality academic works in
+          ecology, environmental science, environmental management, marine and
+          coastal systems, conservation, sustainable resource use, and environmental
+          policy. JEEM provides a platform for researchers, practitioners, policy
+          analysts, and decision-makers to share scientific findings and management
+          approaches that support sustainable environmental governance.
+        </p>
+
+        <p>
+          JEEM welcomes manuscripts that offer original scientific contributions,
+          applied research findings, conceptual development, policy analysis, and
+          practical solutions related to environmental challenges. The journal
+          emphasizes research that connects ecological understanding with management
+          action, particularly in contexts where environmental sustainability,
+          biodiversity protection, fisheries governance, climate adaptation, and
+          community resilience are closely linked.
+        </p>
+      </section>
+
+      <!-- ARTICLE TYPES -->
+      <section class="content-card" id="article-types">
+        <div class="section-heading">
+          <p>Accepted Manuscripts</p>
+          <h2>Types of Articles</h2>
+        </div>
+
+        <p>
+          JEEM accepts several types of scholarly contributions. Submissions should
+          demonstrate originality, methodological clarity, relevance to the journal
+          scope, and contribution to the advancement of ecology and environmental
+          management.
+        </p>
+
+        <div class="article-type-grid">
+          <div>
+            <h3>Original Research Article</h3>
+            <p>
+              Full-length papers presenting original research findings, data analysis,
+              field studies, modeling, experiments, or policy-relevant evidence.
+            </p>
+          </div>
+
+          <div>
+            <h3>Review Article</h3>
+            <p>
+              Critical synthesis of current knowledge, research gaps, theoretical
+              development, or future directions in ecology and environmental management.
+            </p>
+          </div>
+
+          <div>
+            <h3>Case Study</h3>
+            <p>
+              Applied studies focusing on specific locations, ecosystems, communities,
+              policies, projects, or management interventions.
+            </p>
+          </div>
+
+          <div>
+            <h3>Short Communication</h3>
+            <p>
+              Concise scientific reports presenting preliminary findings, emerging
+              issues, new methods, or urgent environmental observations.
+            </p>
+          </div>
+
+          <div>
+            <h3>Policy Brief</h3>
+            <p>
+              Evidence-based policy analysis or recommendations related to ecological
+              sustainability, fisheries management, conservation, or environmental governance.
+            </p>
+          </div>
+
+          <div>
+            <h3>Technical Note</h3>
+            <p>
+              Notes on methods, tools, datasets, monitoring approaches, assessment
+              frameworks, or practical innovations relevant to environmental management.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- MAIN FOCUS AREAS -->
+      <section class="content-card" id="focus-areas">
+        <div class="section-heading">
+          <p>Research Coverage</p>
+          <h2>Main Focus Areas</h2>
+        </div>
+
+        <p>
+          JEEM covers a broad range of topics within ecology and environmental
+          management. The journal particularly encourages interdisciplinary works
+          that combine natural science, management science, policy analysis,
+          technological innovation, and community-based approaches.
+        </p>
+
+        <div class="scope-cards">
+          <div class="scope-card">
+            <h3>Ecology and Ecosystem Studies</h3>
+            <p>
+              Ecosystem dynamics, biodiversity, ecological interactions, habitat
+              quality, ecosystem services, ecological restoration, and environmental
+              change affecting terrestrial, freshwater, coastal, and marine ecosystems.
+            </p>
+          </div>
+
+          <div class="scope-card">
+            <h3>Environmental Management and Governance</h3>
+            <p>
+              Environmental planning, institutional governance, environmental
+              standards, management systems, environmental monitoring, regulatory
+              frameworks, policy implementation, and sustainability assessment.
+            </p>
+          </div>
+
+          <div class="scope-card">
+            <h3>Marine, Coastal, and Fisheries Sustainability</h3>
+            <p>
+              Marine ecosystems, coastal resilience, fisheries management, stock
+              assessment, catch quota policy, fishing practices, marine conservation,
+              blue economy, and sustainable use of aquatic resources.
+            </p>
+          </div>
+
+          <div class="scope-card">
+            <h3>Pollution Control and Environmental Quality</h3>
+            <p>
+              Pollution sources, pollutant transport, water quality, air quality,
+              soil contamination, hazardous waste, marine debris, environmental
+              monitoring, mitigation technologies, and pollution control strategies.
+            </p>
+          </div>
+
+          <div class="scope-card">
+            <h3>Climate Change and Environmental Resilience</h3>
+            <p>
+              Climate adaptation, mitigation, vulnerability assessment, disaster
+              risk reduction, coastal adaptation, community resilience, environmental
+              risk, and nature-based solutions.
+            </p>
+          </div>
+
+          <div class="scope-card">
+            <h3>Conservation, Genetics, and Aquatic Forensics</h3>
+            <p>
+              Conservation biology, protected species management, elasmobranchii,
+              aquatic biodiversity, genetic tools, species identification, trade
+              traceability, and forensic approaches to support conservation policy.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- DETAILED TOPICS -->
+      <section class="content-card" id="topics">
+        <div class="section-heading">
+          <p>Topics of Interest</p>
+          <h2>Specific Topics Welcomed by JEEM</h2>
+        </div>
+
+        <p>
+          Manuscripts may address, but are not limited to, the following themes:
+        </p>
+
+        <div class="topic-grid">
+          <div>Environmental science and management</div>
+          <div>Ecology and biodiversity conservation</div>
+          <div>Marine and coastal ecosystem management</div>
+          <div>Fisheries management and stock assessment</div>
+          <div>Blue economy and sustainable resource use</div>
+          <div>Environmental pollution monitoring</div>
+          <div>Water, soil, and air quality assessment</div>
+          <div>Solid, liquid, and hazardous waste management</div>
+          <div>Environmental impact assessment</div>
+          <div>Ecological and human risk assessment</div>
+          <div>Bioremediation and ecosystem restoration</div>
+          <div>Climate change adaptation and mitigation</div>
+          <div>Environmental policy and planning</div>
+          <div>Community-based conservation</div>
+          <div>Aquatic genetics and forensic tools</div>
+          <div>Traceability of aquatic species trade</div>
+          <div>Protected species and habitat management</div>
+          <div>Environmental standards and criteria</div>
+        </div>
+      </section>
+
+      <!-- TARGET AUDIENCE -->
+      <section class="content-card" id="target-audience">
+        <div class="section-heading">
+          <p>Readers and Contributors</p>
+          <h2>Target Audience</h2>
+        </div>
+
+        <p>
+          JEEM is intended for researchers, lecturers, graduate students, policy
+          analysts, environmental managers, fisheries experts, conservation
+          practitioners, government institutions, non-governmental organizations,
+          professional societies, and private sector actors working on ecological
+          and environmental issues.
+        </p>
+
+        <p>
+          The journal aims to support the dissemination of evidence that can improve
+          environmental performance, strengthen monitoring systems, guide pollution
+          control and mitigation, support sustainable fisheries and marine resource
+          management, and contribute to better policy design in environmental and
+          ecological governance.
+        </p>
+
+        <div class="audience-grid">
+          <div>
+            <span>01</span>
+            <h3>Academic Community</h3>
+            <p>Researchers, lecturers, students, and scientific institutions.</p>
+          </div>
+
+          <div>
+            <span>02</span>
+            <h3>Policy and Government</h3>
+            <p>Public agencies, policy analysts, planners, and regulators.</p>
+          </div>
+
+          <div>
+            <span>03</span>
+            <h3>Environmental Practitioners</h3>
+            <p>Environmental managers, consultants, NGOs, and conservation actors.</p>
+          </div>
+
+          <div>
+            <span>04</span>
+            <h3>Marine and Fisheries Sector</h3>
+            <p>Fisheries scientists, coastal managers, and blue economy stakeholders.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- CORE VALUES -->
+      <section class="content-card" id="core-values">
+        <div class="section-heading">
+          <p>Journal Principles</p>
+          <h2>Core Values</h2>
+        </div>
+
+        <p>
+          JEEM upholds the following values in its editorial and publication process:
+        </p>
+
+        <div class="value-grid">
+          <div>
+            <h3>Scientific Integrity</h3>
+            <p>Ensuring honesty, transparency, and responsibility in scholarly publication.</p>
+          </div>
+
+          <div>
+            <h3>Quality</h3>
+            <p>Prioritizing methodological soundness, clarity, and contribution to knowledge.</p>
+          </div>
+
+          <div>
+            <h3>Originality</h3>
+            <p>Encouraging new findings, fresh perspectives, and innovative approaches.</p>
+          </div>
+
+          <div>
+            <h3>Clarity</h3>
+            <p>Promoting clear communication of scientific evidence and policy relevance.</p>
+          </div>
+
+          <div>
+            <h3>Innovation</h3>
+            <p>Supporting new methods, tools, and interdisciplinary solutions.</p>
+          </div>
+
+          <div>
+            <h3>Knowledge Dissemination</h3>
+            <p>Making research useful for science, policy, management, and society.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- EDITORIAL RELEVANCE -->
+      <section class="content-card" id="editorial-relevance">
+        <div class="section-heading">
+          <p>Editorial Expertise</p>
+          <h2>Alignment with JEEM Editorial Board</h2>
+        </div>
+
+        <p>
+          The focus and scope of JEEM are designed to reflect the expertise of its
+          editorial board and the needs of contemporary environmental scholarship.
+          With editorial expertise in fisheries stock assessment, sustainable
+          fisheries management, blue economy policy, aquatic genetics, shark and ray
+          conservation, and environmental governance, JEEM encourages manuscripts
+          that are scientifically rigorous and relevant to real-world environmental
+          decision-making.
+        </p>
+
+        <p>
+          JEEM especially welcomes studies that bridge ecological science with
+          policy and management, including research on coastal and marine ecosystems,
+          aquatic biodiversity, fisheries sustainability, environmental monitoring,
+          conservation technologies, and community-oriented environmental solutions.
+        </p>
+      </section>
+
+    </section>
+
+    <!-- SIDEBAR -->
+    <aside class="focus-sidebar">
+
+      <div class="side-card call-card">
+        <h3>Focus and Scope</h3>
+        <p>
+          JEEM welcomes research that connects ecology, environmental management,
+          marine sustainability, and evidence-based policy.
+        </p>
+        <a href="submission.html" class="submit-button">Submit Manuscript</a>
+      </div>
+
+      <div class="side-card">
+        <h3>Scope Menu</h3>
+        <a href="#journal-statement">Journal Statement</a>
+        <a href="#article-types">Article Types</a>
+        <a href="#focus-areas">Main Focus Areas</a>
+        <a href="#topics">Topics of Interest</a>
+        <a href="#target-audience">Target Audience</a>
+        <a href="#core-values">Core Values</a>
+      </div>
+
+      <div class="side-card">
+        <h3>Related Pages</h3>
+        <a href="submission.html">Author Guidelines</a>
+        <a href="submission.html#submission-form">Manuscript Submission</a>
+        <a href="publication-ethics.html">Publication Ethics</a>
+        <a href="index.html#editorial">Editorial Board</a>
+      </div>
+
+      <div class="side-card journal-info">
+        <h3>Journal Identity</h3>
+        <p><strong>Journal:</strong><br />Journal of Ecology and Environmental Management</p>
+        <p><strong>Abbreviation:</strong><br />JEEM</p>
+        <p><strong>Domain:</strong><br />journal-ecojeem.org</p>
+        <p><strong>Access:</strong><br />Open Access</p>
+      </div>
+
+    </aside>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <h3>JEEM</h3>
+        <p>
+          Journal of Ecology and Environmental Management publishes scientific works
+          in ecology, environment, conservation, sustainability, and coastal resilience.
+        </p>
+      </div>
+
+      <div>
+        <h3>Quick Links</h3>
+        <a href="index.html">Home</a>
+        <a href="focus-scope.html">Focus and Scope</a>
+        <a href="submission.html">Submission</a>
+        <a href="publication-ethics.html">Publication Ethics</a>
+      </div>
+
+      <div>
+        <h3>Contact</h3>
+        <p>Jakarta, Indonesia</p>
+        <p>journal.ecology@example.com</p>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>© 2026 Journal of Ecology and Environmental Management. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">↑</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
