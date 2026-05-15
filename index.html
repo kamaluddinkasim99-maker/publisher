@@ -3,37 +3,49 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
   <title>Journal of Ecology and Environmental Management</title>
+
   <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
 
   <!-- TOP BAR -->
   <div class="top-bar">
-    <div class="container top-content">
-      <p>e-ISSN: 0000-0000 | p-ISSN: 0000-0000</p>
-      <p>Email: journal.ecology@example.com</p>
+    <div class="container top-bar-content">
+      <div>
+        <span>e-ISSN: 0000-0000</span>
+        <span class="divider">|</span>
+        <span>p-ISSN: 0000-0000</span>
+      </div>
+
+      <div>
+        <span>Email: journal.ecology@example.com</span>
+      </div>
     </div>
   </div>
 
   <!-- HEADER -->
-  <header class="main-header">
+  <header class="site-header">
     <div class="container header-content">
-      <div class="logo-area">
-        <div class="logo-circle">JEML</div>
+      <div class="brand">
+        <div class="brand-logo">JEML</div>
         <div>
-          <h1>Journal of Ecology and Environmental Management</h1>
-          <p>Jurnal Ecology dan Management Lingkungan</p>
+          <h1>Official Journal Website</h1>
+          <p>Ecology • Environment • Sustainability • Coastal Resilience</p>
         </div>
       </div>
 
-      <button class="menu-toggle" id="menuToggle">☰</button>
+      <button class="menu-toggle" id="menuToggle" aria-label="Open menu">
+        ☰
+      </button>
     </div>
   </header>
 
   <!-- NAVIGATION -->
-  <nav class="navbar" id="navbar">
-    <div class="container nav-links">
+  <nav class="navbar">
+    <div class="container nav-links" id="navLinks">
       <a href="#home">Home</a>
       <a href="#about">About Journal</a>
       <a href="#current">Current Issue</a>
@@ -44,32 +56,36 @@
     </div>
   </nav>
 
-  <!-- HERO -->
-  <section class="hero" id="home">
-    <div class="container hero-grid">
-      <div class="hero-text">
-        <span class="badge">Open Access Journal</span>
-        <h2>Advancing Knowledge in Ecology, Environment, and Sustainable Management</h2>
-        <p>
-          Journal of Ecology and Environmental Management menerbitkan artikel ilmiah,
-          policy review, dan hasil penelitian terkait ekologi, tata kelola lingkungan,
-          konservasi, perubahan iklim, dan pembangunan berkelanjutan.
-        </p>
-        <div class="hero-buttons">
-          <a href="#submission" class="btn primary">Submit Manuscript</a>
-          <a href="#current" class="btn secondary">View Current Issue</a>
-        </div>
+  <!-- IMAGE HEADER -->
+  <section class="journal-hero" id="home">
+    <img src="header-journal.png" alt="Journal of Ecology and Environmental Management Header" />
+  </section>
+
+  <!-- JOURNAL QUICK INFO -->
+  <section class="quick-info">
+    <div class="container quick-info-grid">
+      <div class="quick-card">
+        <span>01</span>
+        <h3>Open Access</h3>
+        <p>All published articles are freely accessible to readers.</p>
       </div>
 
-      <div class="hero-card">
-        <h3>Journal Information</h3>
-        <ul>
-          <li><strong>Frequency:</strong> 2 issues per year</li>
-          <li><strong>Language:</strong> English & Indonesian</li>
-          <li><strong>Review:</strong> Double Blind Peer Review</li>
-          <li><strong>Access:</strong> Open Access</li>
-          <li><strong>Publisher:</strong> Environmental Research Society</li>
-        </ul>
+      <div class="quick-card">
+        <span>02</span>
+        <h3>Peer Review</h3>
+        <p>Manuscripts are reviewed through a double blind process.</p>
+      </div>
+
+      <div class="quick-card">
+        <span>03</span>
+        <h3>Biannual Issue</h3>
+        <p>The journal publishes two regular issues each year.</p>
+      </div>
+
+      <div class="quick-card">
+        <span>04</span>
+        <h3>Environmental Focus</h3>
+        <p>Research on ecology, sustainability, and environmental management.</p>
       </div>
     </div>
   </section>
@@ -77,43 +93,68 @@
   <!-- MAIN CONTENT -->
   <main class="container main-layout">
 
-    <!-- LEFT CONTENT -->
+    <!-- CONTENT AREA -->
     <section class="content-area">
 
-      <section class="card" id="about">
-        <h2>About the Journal</h2>
+      <!-- ABOUT -->
+      <section class="content-card" id="about">
+        <div class="section-heading">
+          <p>About the Journal</p>
+          <h2>Journal of Ecology and Environmental Management</h2>
+        </div>
+
         <p>
           Journal of Ecology and Environmental Management adalah jurnal ilmiah yang
           berfokus pada kajian ekologi, pengelolaan lingkungan, konservasi sumber daya alam,
-          mitigasi perubahan iklim, pencemaran, tata kelola lingkungan, serta pembangunan
-          berkelanjutan.
+          perubahan iklim, tata kelola lingkungan, pencemaran, pesisir, laut, serta
+          pembangunan berkelanjutan.
         </p>
+
         <p>
           Jurnal ini menerima artikel hasil penelitian, review article, short communication,
-          dan policy brief yang memberikan kontribusi terhadap pengembangan ilmu pengetahuan
-          dan pengambilan kebijakan lingkungan.
+          dan policy brief yang memberikan kontribusi terhadap pengembangan ilmu pengetahuan,
+          praktik pengelolaan lingkungan, serta pengambilan kebijakan berbasis bukti.
         </p>
+
+        <div class="scope-grid">
+          <div>Ecology</div>
+          <div>Environmental Management</div>
+          <div>Climate Change</div>
+          <div>Coastal Resilience</div>
+          <div>Biodiversity</div>
+          <div>Sustainability</div>
+        </div>
       </section>
 
-      <section class="card" id="current">
-        <div class="section-title">
-          <h2>Current Issue</h2>
-          <span>Vol. 1 No. 1, 2026</span>
+      <!-- CURRENT ISSUE -->
+      <section class="content-card" id="current">
+        <div class="section-title-row">
+          <div class="section-heading">
+            <p>Latest Publication</p>
+            <h2>Current Issue</h2>
+          </div>
+
+          <div class="issue-badge">
+            Vol. 1 No. 1, 2026
+          </div>
         </div>
 
         <article class="article-item">
+          <div class="article-type">Research Article</div>
           <h3>Community-Based Mangrove Conservation for Coastal Resilience</h3>
-          <p class="meta">Author: A. Rahman, S. Lestari | Pages: 1–12</p>
+          <p class="article-meta">Author: A. Rahman, S. Lestari | Pages: 1–12</p>
           <p>
-            This article discusses community participation in mangrove conservation
-            and its contribution to coastal resilience and ecological restoration.
+            This article discusses community participation in mangrove conservation and its
+            contribution to coastal resilience, ecological restoration, and sustainable
+            coastal management.
           </p>
           <a href="#" class="read-more">Read Abstract</a>
         </article>
 
         <article class="article-item">
+          <div class="article-type">Research Article</div>
           <h3>Waste Management Strategy in Urban Coastal Areas</h3>
-          <p class="meta">Author: D. Pratama, R. Amelia | Pages: 13–25</p>
+          <p class="article-meta">Author: D. Pratama, R. Amelia | Pages: 13–25</p>
           <p>
             This study evaluates integrated waste management strategies in coastal cities
             using environmental governance and circular economy approaches.
@@ -122,79 +163,109 @@
         </article>
 
         <article class="article-item">
+          <div class="article-type">Review Article</div>
           <h3>Climate Change Adaptation and Local Ecological Knowledge</h3>
-          <p class="meta">Author: M. Fadhil, N. Kartika | Pages: 26–40</p>
+          <p class="article-meta">Author: M. Fadhil, N. Kartika | Pages: 26–40</p>
           <p>
             The paper explores how local ecological knowledge supports climate adaptation
-            in rural and coastal communities.
+            in rural, coastal, and small island communities.
           </p>
           <a href="#" class="read-more">Read Abstract</a>
         </article>
       </section>
 
-      <section class="card" id="archive">
-        <h2>Journal Archive</h2>
+      <!-- ARCHIVE -->
+      <section class="content-card" id="archive">
+        <div class="section-heading">
+          <p>Publication History</p>
+          <h2>Journal Archive</h2>
+        </div>
+
         <div class="archive-grid">
           <div class="archive-box">
             <h3>2026</h3>
             <p>Vol. 1 No. 1</p>
+            <a href="#">View Issue</a>
           </div>
+
           <div class="archive-box">
             <h3>2027</h3>
             <p>Coming Soon</p>
+            <a href="#">View Issue</a>
           </div>
+
           <div class="archive-box">
             <h3>2028</h3>
             <p>Coming Soon</p>
+            <a href="#">View Issue</a>
           </div>
         </div>
       </section>
 
-      <section class="card" id="submission">
-        <h2>Manuscript Submission</h2>
+      <!-- SUBMISSION -->
+      <section class="content-card" id="submission">
+        <div class="section-heading">
+          <p>For Authors</p>
+          <h2>Manuscript Submission</h2>
+        </div>
+
         <p>
-          Authors are invited to submit original manuscripts that have not been
-          published or submitted elsewhere. Manuscripts should follow the journal
-          template and ethical publication standards.
+          Authors are invited to submit original manuscripts that have not been published
+          or submitted elsewhere. Manuscripts should follow the journal template,
+          publication ethics, and author guidelines.
         </p>
 
-        <div class="steps">
-          <div>
+        <div class="steps-grid">
+          <div class="step-card">
             <span>1</span>
-            <p>Prepare manuscript using journal template</p>
+            <h3>Prepare</h3>
+            <p>Prepare manuscript using the official journal template.</p>
           </div>
-          <div>
+
+          <div class="step-card">
             <span>2</span>
-            <p>Submit article through email or online form</p>
+            <h3>Submit</h3>
+            <p>Submit article through journal email or online submission form.</p>
           </div>
-          <div>
+
+          <div class="step-card">
             <span>3</span>
-            <p>Editorial screening and peer review process</p>
+            <h3>Review</h3>
+            <p>The manuscript enters editorial screening and peer review.</p>
           </div>
-          <div>
+
+          <div class="step-card">
             <span>4</span>
-            <p>Revision, acceptance, and publication</p>
+            <h3>Publish</h3>
+            <p>Accepted articles are prepared for publication in the journal issue.</p>
           </div>
         </div>
       </section>
 
-      <section class="card" id="editorial">
-        <h2>Editorial Board</h2>
+      <!-- EDITORIAL BOARD -->
+      <section class="content-card" id="editorial">
+        <div class="section-heading">
+          <p>Journal Management</p>
+          <h2>Editorial Board</h2>
+        </div>
 
         <div class="editor-grid">
           <div class="editor-card">
+            <div class="editor-avatar">E</div>
             <h3>Editor in Chief</h3>
             <p>Dr. Nama Editor Utama</p>
             <small>Department of Environmental Science</small>
           </div>
 
           <div class="editor-card">
+            <div class="editor-avatar">M</div>
             <h3>Managing Editor</h3>
             <p>Dr. Nama Managing Editor</p>
             <small>Ecology and Conservation Studies</small>
           </div>
 
           <div class="editor-card">
+            <div class="editor-avatar">A</div>
             <h3>Associate Editor</h3>
             <p>Dr. Nama Associate Editor</p>
             <small>Environmental Policy and Governance</small>
@@ -202,9 +273,14 @@
         </div>
       </section>
 
-      <section class="card" id="contact">
-        <h2>Contact Us</h2>
-        <div class="contact-box">
+      <!-- CONTACT -->
+      <section class="content-card" id="contact">
+        <div class="section-heading">
+          <p>Get in Touch</p>
+          <h2>Contact Us</h2>
+        </div>
+
+        <div class="contact-grid">
           <div>
             <h3>Editorial Office</h3>
             <p>
@@ -245,20 +321,30 @@
         <a href="#">Manuscript Template</a>
       </div>
 
-      <div class="side-card highlight">
+      <div class="side-card call-card">
         <h3>Call for Papers</h3>
         <p>
           Submit your manuscript for Vol. 1 No. 2, 2026.
         </p>
-        <a href="#submission" class="small-btn">Submit Now</a>
+        <a href="#submission" class="submit-button">Submit Now</a>
       </div>
 
       <div class="side-card">
         <h3>Indexing</h3>
-        <p>Google Scholar</p>
-        <p>Garuda</p>
-        <p>Crossref</p>
-        <p>DOAJ - Coming Soon</p>
+        <ul class="index-list">
+          <li>Google Scholar</li>
+          <li>Garuda</li>
+          <li>Crossref</li>
+          <li>DOAJ - Coming Soon</li>
+        </ul>
+      </div>
+
+      <div class="side-card journal-info">
+        <h3>Journal Information</h3>
+        <p><strong>Frequency:</strong> 2 issues per year</p>
+        <p><strong>Language:</strong> English & Indonesian</p>
+        <p><strong>Review:</strong> Double Blind Peer Review</p>
+        <p><strong>Access:</strong> Open Access</p>
       </div>
 
     </aside>
@@ -271,14 +357,14 @@
       <div>
         <h3>JEML</h3>
         <p>
-          Journal of Ecology and Environmental Management publishes scientific
-          works in ecology, environment, conservation, and sustainable development.
+          Journal of Ecology and Environmental Management publishes scientific works
+          in ecology, environment, conservation, sustainability, and coastal resilience.
         </p>
       </div>
 
       <div>
         <h3>Quick Links</h3>
-        <a href="#about">About</a>
+        <a href="#about">About Journal</a>
         <a href="#current">Current Issue</a>
         <a href="#submission">Submission</a>
         <a href="#contact">Contact</a>
@@ -291,7 +377,7 @@
       </div>
     </div>
 
-    <div class="copyright">
+    <div class="footer-bottom">
       <p>© 2026 Journal of Ecology and Environmental Management. All Rights Reserved.</p>
     </div>
   </footer>
