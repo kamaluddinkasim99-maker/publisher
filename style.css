@@ -1473,3 +1473,20 @@ a {
 .hidden-field {
   display: none;
 }
+.thankyou-hero {
+  min-height: 330px;
+}
+
+.thankyou-card {
+  margin-top: 42px;
+  margin-bottom: 64px;
+}
+
+.thankyou-buttons {
+  margin-top: 26px;
+}
+
+.dark-btn {
+  color: var(--navy);
+  border: 1.5px solid rgba(7, 59, 92, 0.25);
+}
