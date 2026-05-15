@@ -1,15 +1,16 @@
 const menuToggle = document.getElementById("menuToggle");
-const navbar = document.querySelector(".nav-links");
+const navLinks = document.getElementById("navLinks");
 
-menuToggle.addEventListener("click", () => {
-  navbar.classList.toggle("active");
-});
+if (menuToggle && navLinks) {
+  menuToggle.addEventListener("click", function () {
+    navLinks.classList.toggle("active");
+  });
+}
 
-// Close mobile menu after clicking a link
-const navLinks = document.querySelectorAll(".nav-links a");
+const allNavLinks = document.querySelectorAll(".nav-links a");
 
-navLinks.forEach((link) => {
-  link.addEventListener("click", () => {
-    navbar.classList.remove("active");
+allNavLinks.forEach(function (link) {
+  link.addEventListener("click", function () {
+    navLinks.classList.remove("active");
   });
 });
