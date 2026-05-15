@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Publication Ethics | Journal of Ecology and Environmental Management</title>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- TOP BAR -->
+  <div class="top-bar">
+    <div class="container top-bar-content">
+      <div>
+        <span>e-ISSN: 0000-0000</span>
+        <span class="divider">|</span>
+        <span>p-ISSN: 0000-0000</span>
+      </div>
+
+      <div>
+        <span>journal.ecology@example.com</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="container header-content">
+      <div class="brand">
+        <div class="brand-logo">JEEM</div>
+        <div>
+          <h1>Journal of Ecology and Environmental Management</h1>
+          <p>Ecology • Environment • Sustainability • Coastal Resilience</p>
+        </div>
+      </div>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Open menu">
+        ☰
+      </button>
+    </div>
+  </header>
+
+  <!-- NAVIGATION -->
+  <nav class="navbar">
+    <div class="container nav-links" id="navLinks">
+      <a href="index.html">Home</a>
+      <a href="index.html#about">About Journal</a>
+      <a href="index.html#current">Current Issue</a>
+      <a href="index.html#archive">Archive</a>
+      <a href="submission.html">Submission</a>
+      <a href="index.html#editorial">Editorial Board</a>
+      <a href="index.html#contact">Contact</a>
+    </div>
+  </nav>
+
+  <!-- ETHICS HERO -->
+  <section class="ethics-hero">
+    <div class="container ethics-hero-content">
+      <span class="hero-label">Publication Policy</span>
+      <h2>Publication Ethics</h2>
+      <p>
+        Journal of Ecology and Environmental Management (JEEM) is committed to
+        maintaining integrity, transparency, accountability, and ethical standards
+        in scholarly publishing.
+      </p>
+    </div>
+  </section>
+
+  <!-- MAIN CONTENT -->
+  <main class="container ethics-layout">
+
+    <!-- MAIN ARTICLE -->
+    <section class="ethics-main">
+
+      <section class="content-card">
+        <div class="section-heading">
+          <p>Ethical Statement</p>
+          <h2>Publication Ethics and Malpractice Statement</h2>
+        </div>
+
+        <p>
+          Journal of Ecology and Environmental Management (JEEM) follows ethical
+          principles in scholarly publishing and supports responsible conduct by
+          authors, editors, reviewers, editorial board members, and readers. JEEM
+          refers to internationally recognized publication ethics principles,
+          including the guidance of the Committee on Publication Ethics (COPE),
+          to ensure fairness, academic integrity, transparency, and accountability
+          throughout the publication process.
+        </p>
+
+        <p>
+          All parties involved in manuscript submission, editorial handling, peer
+          review, and publication are expected to comply with the journal’s ethical
+          policies. Editorial decisions are made based on academic merit, relevance
+          to the journal scope, originality, methodological soundness, clarity, and
+          contribution to the fields of ecology, environmental management,
+          sustainability, conservation, coastal resilience, and related disciplines.
+        </p>
+      </section>
+
+      <section class="content-card">
+        <div class="section-heading">
+          <p>Publisher Responsibility</p>
+          <h2>Ethical Guidelines for the Publisher</h2>
+        </div>
+
+        <div class="ethics-list">
+          <div>
+            <h3>Editorial Independence</h3>
+            <p>
+              JEEM ensures that decisions on submitted manuscripts are based on
+              professional editorial judgment and scholarly quality, not on
+              commercial, institutional, or personal interests.
+            </p>
+          </div>
+
+          <div>
+            <h3>Academic Integrity</h3>
+            <p>
+              JEEM is committed to preserving the reliability of academic records
+              and maintaining the integrity of published research.
+            </p>
+          </div>
+
+          <div>
+            <h3>Ethical Oversight</h3>
+            <p>
+              JEEM monitors publication ethics involving the Editor-in-Chief,
+              editors, editorial board members, reviewers, authors, and readers.
+            </p>
+          </div>
+
+          <div>
+            <h3>Correction and Retraction</h3>
+            <p>
+              When necessary, JEEM may publish corrections, clarifications,
+              retractions, expressions of concern, or other notices to maintain
+              the accuracy of the scholarly record.
+            </p>
+          </div>
+
+          <div>
+            <h3>Plagiarism and Data Integrity</h3>
+            <p>
+              JEEM may screen submissions for plagiarism, fraudulent data,
+              citation manipulation, and other forms of publication misconduct.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="content-card">
+        <div class="section-heading">
+          <p>Editorial Duties</p>
+          <h2>Ethical Guidelines for Editors</h2>
+        </div>
+
+        <p>
+          Editors are responsible for ensuring a fair, objective, confidential,
+          and academically rigorous editorial process. The Editor-in-Chief, together
+          with relevant editors and reviewers, evaluates whether a manuscript is
+          suitable for publication in JEEM.
+        </p>
+
+        <ul class="ethics-bullets">
+          <li>Editors have the authority to accept, reject, or request revisions to manuscripts.</li>
+          <li>Editors must protect the confidentiality of submitted manuscripts throughout the review process.</li>
+          <li>Editors must preserve reviewer anonymity in accordance with the journal’s peer review policy.</li>
+          <li>Editors should avoid and disclose any potential conflict of interest.</li>
+          <li>Editors must assess manuscripts based on intellectual content, academic merit, and relevance to JEEM.</li>
+          <li>Editors may investigate suspected plagiarism, data falsification, unethical authorship, or other misconduct.</li>
+          <li>Unpublished materials from submitted manuscripts must not be used for personal research without written permission from the author.</li>
+        </ul>
+      </section>
+
+      <section class="content-card">
+        <div class="section-heading">
+          <p>Peer Review</p>
+          <h2>Ethical Guidelines for Reviewers</h2>
+        </div>
+
+        <p>
+          Reviewers play an important role in supporting editorial decisions and
+          improving the quality of manuscripts. Reviews should be objective,
+          constructive, timely, and based on scholarly considerations.
+        </p>
+
+        <ul class="ethics-bullets">
+          <li>Reviewers should assist editors in evaluating the quality, originality, and relevance of manuscripts.</li>
+          <li>Reviewers must treat manuscripts as confidential documents.</li>
+          <li>Reviewers should provide clear, professional, technical, and objective comments.</li>
+          <li>Reviewers should complete reviews within the agreed timeframe.</li>
+          <li>Reviewers must not use information obtained during peer review for personal advantage.</li>
+          <li>Reviewers should decline a review invitation if they have a conflict of interest with the authors, institutions, funders, or research topic.</li>
+        </ul>
+      </section>
+
+      <section class="content-card">
+        <div class="section-heading">
+          <p>Author Responsibility</p>
+          <h2>Ethical Guidelines for Authors</h2>
+        </div>
+
+        <p>
+          Authors submitting manuscripts to JEEM are responsible for ensuring the
+          originality, accuracy, transparency, and ethical compliance of their work.
+          Manuscripts must be submitted with the understanding that they have not
+          been published elsewhere and are not under consideration by another journal.
+        </p>
+
+        <ul class="ethics-bullets">
+          <li>Authors must submit original work that is free from plagiarism.</li>
+          <li>Authors must ensure that the manuscript is not simultaneously submitted to another journal.</li>
+          <li>All listed authors must have made a meaningful contribution to the research and manuscript preparation.</li>
+          <li>The corresponding author is responsible for communication with the editorial office and for ensuring approval from all co-authors.</li>
+          <li>Authors must disclose funding sources, sponsors, and their roles in the research where applicable.</li>
+          <li>Authors must disclose any actual or potential conflict of interest.</li>
+          <li>Authors should promptly notify the editor if they discover significant errors or inaccuracies in their published work.</li>
+          <li>Authors agree that submitted manuscripts may be screened using plagiarism detection tools.</li>
+        </ul>
+      </section>
+
+      <section class="content-card">
+        <div class="section-heading">
+          <p>Transparency</p>
+          <h2>Principles of Transparency and Best Practice</h2>
+        </div>
+
+        <div class="transparency-grid">
+          <div>
+            <h3>Peer Review Process</h3>
+            <p>
+              JEEM applies a peer review process to evaluate submitted manuscripts.
+              The review process is designed to support quality control, academic
+              rigor, and constructive improvement of manuscripts.
+            </p>
+          </div>
+
+          <div>
+            <h3>Editorial Board</h3>
+            <p>
+              JEEM provides information on its editorial structure, including the
+              Editor-in-Chief, editors, and editorial board members with relevant
+              expertise in the journal’s scope.
+            </p>
+          </div>
+
+          <div>
+            <h3>Contact Information</h3>
+            <p>
+              JEEM provides editorial office contact details to support communication
+              with authors, reviewers, readers, and other stakeholders.
+            </p>
+          </div>
+
+          <div>
+            <h3>Access Policy</h3>
+            <p>
+              JEEM supports access to scholarly information and provides information
+              regarding publication access, author fees, and related policies where
+              applicable.
+            </p>
+          </div>
+
+          <div>
+            <h3>Copyright and Conflict of Interest</h3>
+            <p>
+              Authors are expected to follow JEEM’s copyright and conflict of
+              interest policies. Relevant declarations may be required during
+              submission or before publication.
+            </p>
+          </div>
+
+          <div>
+            <h3>Publishing Schedule</h3>
+            <p>
+              JEEM clearly communicates its publication schedule, issue information,
+              and editorial policies to maintain transparency for authors and readers.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="content-card">
+        <div class="section-heading">
+          <p>Misconduct</p>
+          <h2>Violation of Publication Ethics</h2>
+        </div>
+
+        <p>
+          JEEM considers the following practices as violations of publication ethics.
+          When suspected or confirmed, the editorial team may investigate and take
+          appropriate action in accordance with the seriousness of the case.
+        </p>
+
+        <div class="misconduct-list">
+          <div>
+            <h3>Plagiarism</h3>
+            <p>
+              Plagiarism includes using another person’s words, ideas, data, or
+              creative work without proper acknowledgment. Self-plagiarism or reuse
+              of previously published material without citation may also be considered
+              unethical.
+            </p>
+          </div>
+
+          <div>
+            <h3>Data Fabrication and Falsification</h3>
+            <p>
+              Fabrication refers to making up data, results, or research records.
+              Falsification refers to manipulating, altering, omitting, or
+              misrepresenting data or findings.
+            </p>
+          </div>
+
+          <div>
+            <h3>Simultaneous Submission</h3>
+            <p>
+              Simultaneous submission occurs when the same manuscript, or substantial
+              parts of it, is submitted to more than one journal at the same time.
+            </p>
+          </div>
+
+          <div>
+            <h3>Duplicate Publication</h3>
+            <p>
+              Duplicate publication occurs when two or more publications present
+              substantially the same hypotheses, data, analysis, discussion, or
+              conclusions without proper cross-reference.
+            </p>
+          </div>
+
+          <div>
+            <h3>Redundant Publication</h3>
+            <p>
+              Redundant publication includes inappropriate splitting of research
+              findings into multiple articles without clear justification.
+            </p>
+          </div>
+
+          <div>
+            <h3>Improper Authorship</h3>
+            <p>
+              All listed authors must have contributed significantly to the work.
+              Individuals who made meaningful scientific or technical contributions
+              should be properly acknowledged or included according to authorship criteria.
+            </p>
+          </div>
+
+          <div>
+            <h3>Citation Manipulation</h3>
+            <p>
+              Citation manipulation includes adding irrelevant or excessive citations
+              solely to increase citations to a specific author, article, journal,
+              institution, or publisher.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="content-card">
+        <div class="section-heading">
+          <p>Ethical Procedure</p>
+          <h2>Handling Cases of Misconduct</h2>
+        </div>
+
+        <p>
+          When ethical concerns arise, JEEM will handle the matter carefully,
+          fairly, and proportionally. The editorial team may request clarification
+          from authors, consult editorial board members, involve relevant committees,
+          or take corrective actions depending on the nature and severity of the case.
+        </p>
+
+        <div class="process-timeline ethics-process">
+          <div class="process-item">
+            <div class="process-number">1</div>
+            <div>
+              <h3>Initial Assessment</h3>
+              <p>
+                The editor reviews the allegation or concern and gathers relevant
+                materials for preliminary assessment.
+              </p>
+            </div>
+          </div>
+
+          <div class="process-item">
+            <div class="process-number">2</div>
+            <div>
+              <h3>Author Clarification</h3>
+              <p>
+                The corresponding author may be contacted and asked to provide an
+                explanation or supporting information.
+              </p>
+            </div>
+          </div>
+
+          <div class="process-item">
+            <div class="process-number">3</div>
+            <div>
+              <h3>Editorial Deliberation</h3>
+              <p>
+                The editorial team may consult relevant editors, reviewers, or
+                advisory members to determine the appropriate response.
+              </p>
+            </div>
+          </div>
+
+          <div class="process-item">
+            <div class="process-number">4</div>
+            <div>
+              <h3>Corrective Action</h3>
+              <p>
+                Depending on the case, JEEM may issue a warning, request correction,
+                reject the manuscript, retract the article, or publish a correction
+                or retraction notice.
+              </p>
+            </div>
+          </div>
+
+          <div class="process-item">
+            <div class="process-number">5</div>
+            <div>
+              <h3>Sanctions</h3>
+              <p>
+                Serious or repeated violations may result in rejection of submissions,
+                restriction on future submissions, removal from editorial or reviewer
+                roles, or notification to affiliated institutions where appropriate.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </section>
+
+    <!-- SIDEBAR -->
+    <aside class="ethics-sidebar">
+
+      <div class="side-card call-card">
+        <h3>Publication Ethics</h3>
+        <p>
+          JEEM is committed to maintaining scholarly integrity and responsible
+          publication practices.
+        </p>
+        <a href="submission.html" class="submit-button">Submit Manuscript</a>
+      </div>
+
+      <div class="side-card">
+        <h3>Ethics Menu</h3>
+        <a href="#publisher">Publisher Responsibility</a>
+        <a href="#editors">Editors</a>
+        <a href="#reviewers">Reviewers</a>
+        <a href="#authors">Authors</a>
+        <a href="#misconduct">Misconduct</a>
+      </div>
+
+      <div class="side-card">
+        <h3>Related Policies</h3>
+        <a href="submission.html">Author Guidelines</a>
+        <a href="submission.html#submission-form">Manuscript Submission</a>
+        <a href="index.html#editorial">Editorial Board</a>
+        <a href="index.html#contact">Contact</a>
+      </div>
+
+      <div class="side-card journal-info">
+        <h3>Journal Identity</h3>
+        <p><strong>Journal:</strong><br />Journal of Ecology and Environmental Management</p>
+        <p><strong>Abbreviation:</strong><br />JEEM</p>
+        <p><strong>Access:</strong><br />Open Access</p>
+      </div>
+
+    </aside>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <h3>JEEM</h3>
+        <p>
+          Journal of Ecology and Environmental Management publishes scientific works
+          in ecology, environment, conservation, sustainability, and coastal resilience.
+        </p>
+      </div>
+
+      <div>
+        <h3>Quick Links</h3>
+        <a href="index.html">Home</a>
+        <a href="index.html#about">About Journal</a>
+        <a href="submission.html">Submission</a>
+        <a href="publication-ethics.html">Publication Ethics</a>
+      </div>
+
+      <div>
+        <h3>Contact</h3>
+        <p>Jakarta, Indonesia</p>
+        <p>journal.ecology@example.com</p>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>© 2026 Journal of Ecology and Environmental Management. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">↑</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
