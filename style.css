@@ -642,11 +642,26 @@ a {
     border-bottom: 1px solid rgba(255, 255, 255, 0.15);
   }
 
+ .journal-hero {
+  width: 100%;
+  background: #dff6f7;
+  overflow: hidden;
+  border-bottom: 6px solid #1f7a4d;
+}
+
+.journal-hero img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+@media (min-width: 1000px) {
   .journal-hero img {
-    min-height: 230px;
+    max-height: 560px;
     object-fit: cover;
     object-position: center;
   }
+}
 
   .quick-info-grid,
   .scope-grid,
