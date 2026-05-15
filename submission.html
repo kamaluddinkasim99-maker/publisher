@@ -180,7 +180,24 @@
           submissions, connect it later to Google Forms, Formspree, Netlify Forms, or a backend service.
         </p>
 
-        <form class="journal-form" id="journalSubmissionForm">
+        <form 
+  class="journal-form" 
+  id="journalSubmissionForm"
+  name="manuscript-submission"
+  method="POST"
+  data-netlify="true"
+  data-netlify-honeypot="bot-field"
+  enctype="multipart/form-data"
+  action="/thank-you.html"
+>
+  <input type="hidden" name="form-name" value="manuscript-submission" />
+
+  <p class="hidden-field">
+    <label>
+      Don’t fill this out if you’re human:
+      <input name="bot-field" />
+    </label>
+  </p>
 
           <!-- SECTION 1 -->
           <div class="form-section">
@@ -299,32 +316,32 @@
             </div>
           </div>
 
-          <!-- SECTION 4 -->
-          <div class="form-section">
-            <h3>4. Declarations</h3>
+         <!-- SECTION 4 -->
+<div class="form-section">
+  <h3>4. Declarations</h3>
 
-            <div class="checkbox-group">
-              <label>
-                <input type="checkbox" required />
-                <span>The manuscript is original and has not been published elsewhere. *</span>
-              </label>
+  <div class="checkbox-group">
+    <label>
+      <input type="checkbox" name="declaration_originality" value="yes" required />
+      <span>The manuscript is original and has not been published elsewhere. *</span>
+    </label>
 
-              <label>
-                <input type="checkbox" required />
-                <span>The manuscript is not currently under review by another journal. *</span>
-              </label>
+    <label>
+      <input type="checkbox" name="declaration_not_under_review" value="yes" required />
+      <span>The manuscript is not currently under review by another journal. *</span>
+    </label>
 
-              <label>
-                <input type="checkbox" required />
-                <span>All authors have approved the manuscript submission. *</span>
-              </label>
+    <label>
+      <input type="checkbox" name="declaration_author_approval" value="yes" required />
+      <span>All authors have approved the manuscript submission. *</span>
+    </label>
 
-              <label>
-                <input type="checkbox" required />
-                <span>The manuscript complies with research and publication ethics. *</span>
-              </label>
-            </div>
-          </div>
+    <label>
+      <input type="checkbox" name="declaration_ethics" value="yes" required />
+      <span>The manuscript complies with research and publication ethics. *</span>
+    </label>
+  </div>
+</div>
 
           <!-- SECTION 5 -->
           <div class="form-section">
