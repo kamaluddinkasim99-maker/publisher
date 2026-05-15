@@ -1547,3 +1547,181 @@ a {
   position: relative;
   z-index: 1;
 }
+/* =========================================================
+   PUBLICATION ETHICS PAGE
+========================================================= */
+
+.ethics-hero {
+  position: relative;
+  min-height: 380px;
+  display: flex;
+  align-items: center;
+  color: white;
+  overflow: hidden;
+  background:
+    linear-gradient(120deg, rgba(7, 59, 92, 0.96), rgba(8, 126, 164, 0.76)),
+    radial-gradient(circle at 78% 25%, rgba(249, 179, 95, 0.92) 0 8%, transparent 9%),
+    linear-gradient(180deg, #8ce6ef 0%, #087ea4 58%, #064663 100%);
+}
+
+.ethics-hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(circle at 18% 72%, rgba(32, 199, 181, 0.28), transparent 24%),
+    linear-gradient(rgba(255, 255, 255, 0.08) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.08) 1px, transparent 1px);
+  background-size: auto, 70px 70px, 70px 70px;
+  opacity: 0.48;
+}
+
+.ethics-hero::after {
+  content: "";
+  position: absolute;
+  left: -8%;
+  right: -8%;
+  bottom: -80px;
+  height: 190px;
+  background:
+    radial-gradient(ellipse at 20% 100%, rgba(245, 223, 179, 0.95) 0 35%, transparent 36%),
+    radial-gradient(ellipse at 70% 110%, rgba(241, 200, 137, 0.9) 0 38%, transparent 39%);
+}
+
+.ethics-hero-content {
+  position: relative;
+  z-index: 3;
+  max-width: 880px;
+}
+
+.ethics-hero-content h2 {
+  font-size: clamp(38px, 6vw, 66px);
+  line-height: 1.05;
+  letter-spacing: -1.5px;
+  margin-bottom: 18px;
+}
+
+.ethics-hero-content p {
+  max-width: 760px;
+  font-size: 18px;
+  opacity: 0.92;
+}
+
+.ethics-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 330px;
+  gap: 30px;
+  margin-top: 42px;
+  margin-bottom: 64px;
+}
+
+.ethics-sidebar {
+  align-self: start;
+  position: sticky;
+  top: 78px;
+}
+
+.ethics-list,
+.misconduct-list {
+  display: grid;
+  gap: 18px;
+  margin-top: 22px;
+}
+
+.ethics-list div,
+.misconduct-list div {
+  padding: 20px;
+  border-radius: 18px;
+  border: 1px solid var(--line);
+  background:
+    linear-gradient(135deg, rgba(32, 199, 181, 0.11), rgba(255, 255, 255, 0.95));
+}
+
+.ethics-list h3,
+.misconduct-list h3,
+.transparency-grid h3 {
+  color: var(--navy);
+  margin-bottom: 6px;
+}
+
+.ethics-list p,
+.misconduct-list p,
+.transparency-grid p {
+  color: var(--muted);
+}
+
+.ethics-bullets {
+  margin-top: 20px;
+  padding-left: 0;
+  list-style: none;
+  display: grid;
+  gap: 12px;
+}
+
+.ethics-bullets li {
+  position: relative;
+  padding: 14px 16px 14px 44px;
+  border-radius: 16px;
+  border: 1px solid var(--line);
+  background: #f9fffd;
+  color: var(--text);
+}
+
+.ethics-bullets li::before {
+  content: "✓";
+  position: absolute;
+  left: 16px;
+  top: 14px;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  background: linear-gradient(135deg, var(--ocean), var(--aqua));
+  color: white;
+  font-size: 12px;
+  font-weight: 900;
+}
+
+.transparency-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 18px;
+  margin-top: 22px;
+}
+
+.transparency-grid div {
+  padding: 20px;
+  border-radius: 18px;
+  border: 1px solid var(--line);
+  background:
+    linear-gradient(180deg, #ffffff, #f7fffd);
+}
+
+.ethics-process {
+  margin-top: 24px;
+}
+
+@media (max-width: 1100px) {
+  .ethics-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .ethics-sidebar {
+    position: static;
+  }
+}
+
+@media (max-width: 760px) {
+  .ethics-hero {
+    min-height: 320px;
+  }
+
+  .ethics-hero-content p {
+    font-size: 16px;
+  }
+
+  .transparency-grid {
+    grid-template-columns: 1fr;
+  }
+}
