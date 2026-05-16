@@ -178,16 +178,26 @@
           submissions, connect it later to Google Forms, Formspree, Netlify Forms, or a backend service.
         </p>
 
-        <form 
+       <form 
   class="journal-form" 
   id="journalSubmissionForm"
-  name="manuscript-submission"
+  action="https://formspree.io/f/xkoydqya"
   method="POST"
-  data-netlify="true"
-  data-netlify-honeypot="bot-field"
-  enctype="multipart/form-data"
-  action="/thank-you.html"
 >
+         <input type="hidden" name="_subject" value="New JEEM Manuscript Submission" />
+<input type="hidden" name="_next" value="https://journal-ecojeem.org/thank-you.html" />
+
+<input 
+  type="hidden" 
+  name="journal_name" 
+  value="Journal of Ecology and Environmental Management (JEEM)" 
+/>
+
+<input 
+  type="hidden" 
+  name="submission_email" 
+  value="submission@journal-ecojeem.org" 
+/>
   <input type="hidden" name="form-name" value="manuscript-submission" />
 
   <p class="hidden-field">
