@@ -19,7 +19,7 @@
       </div>
 
       <div>
-        <span>For submission : submission@journal-ecojeem.org</span>
+        <span>For submission: submission@journal-ecojeem.org</span>
       </div>
     </div>
   </div>
@@ -46,10 +46,12 @@
     <div class="container nav-links" id="navLinks">
       <a href="index.html">Home</a>
       <a href="index.html#about">About Journal</a>
+      <a href="focus-scope.html">Focus and Scope</a>
       <a href="index.html#current">Current Issue</a>
       <a href="index.html#archive">Archive</a>
       <a href="submission.html" class="active-link">Submission</a>
       <a href="index.html#editorial">Editorial Board</a>
+      <a href="publication-ethics.html">Publication Ethics</a>
       <a href="index.html#contact">Contact</a>
     </div>
   </nav>
@@ -84,33 +86,34 @@
         <p>
           Authors are required to ensure that the submitted manuscript is original,
           has not been published elsewhere, and is not currently under consideration
-          by another journal. The manuscript should follow the journal scope and
-          formatting requirements.
+          by another journal. The manuscript should follow the scope, formatting
+          requirements, and publication ethics of the Journal of Ecology and
+          Environmental Management (JEEM).
         </p>
 
         <div class="guideline-grid">
           <div class="guideline-card">
             <span>01</span>
             <h3>Originality</h3>
-            <p>The manuscript must be original and free from plagiarism.</p>
+            <p>The manuscript must be original, free from plagiarism, and properly cited.</p>
           </div>
 
           <div class="guideline-card">
             <span>02</span>
             <h3>Scope Relevance</h3>
-            <p>The topic should relate to ecology, environment, coastal studies, or sustainability.</p>
+            <p>The topic should relate to ecology, environmental management, coastal and marine studies, conservation, climate change, or sustainability.</p>
           </div>
 
           <div class="guideline-card">
             <span>03</span>
             <h3>Manuscript Format</h3>
-            <p>Use the journal template and follow the prescribed structure.</p>
+            <p>Authors should follow the journal template and provide complete author and manuscript information.</p>
           </div>
 
           <div class="guideline-card">
             <span>04</span>
             <h3>Ethics Statement</h3>
-            <p>Authors must comply with research and publication ethics.</p>
+            <p>Authors must comply with research ethics, publication ethics, and authorship responsibility.</p>
           </div>
         </div>
       </section>
@@ -126,40 +129,55 @@
           <div class="process-item">
             <div class="process-number">1</div>
             <div>
-              <h3>Manuscript Submission</h3>
-              <p>Author completes the submission form and uploads manuscript files.</p>
+              <h3>Manuscript Metadata Submission</h3>
+              <p>
+                Authors complete the online metadata form through the JEEM website.
+                This information is submitted to the editorial office through Formspree.
+              </p>
             </div>
           </div>
 
           <div class="process-item">
             <div class="process-number">2</div>
             <div>
-              <h3>Editorial Screening</h3>
-              <p>The editorial office checks scope, formatting, completeness, and ethics compliance.</p>
+              <h3>Manuscript File Upload</h3>
+              <p>
+                Authors upload the manuscript file and supplementary documents through
+                the official JEEM Google Form. Files will be stored in Google Drive.
+              </p>
             </div>
           </div>
 
           <div class="process-item">
             <div class="process-number">3</div>
             <div>
-              <h3>Peer Review</h3>
-              <p>The manuscript is reviewed by qualified reviewers using a blind review process.</p>
+              <h3>Editorial Screening</h3>
+              <p>
+                The editorial office checks the scope, formatting, completeness,
+                authorship information, and publication ethics compliance.
+              </p>
             </div>
           </div>
 
           <div class="process-item">
             <div class="process-number">4</div>
             <div>
-              <h3>Revision and Decision</h3>
-              <p>Authors revise the manuscript based on reviewer and editor comments.</p>
+              <h3>Peer Review</h3>
+              <p>
+                Manuscripts that pass editorial screening will be reviewed by qualified
+                reviewers using a blind review process.
+              </p>
             </div>
           </div>
 
           <div class="process-item">
             <div class="process-number">5</div>
             <div>
-              <h3>Publication</h3>
-              <p>Accepted manuscripts are copyedited, formatted, and published in the journal issue.</p>
+              <h3>Revision, Decision, and Publication</h3>
+              <p>
+                Authors may be requested to revise the manuscript based on reviewer
+                and editor comments before final decision and publication.
+              </p>
             </div>
           </div>
         </div>
@@ -173,39 +191,45 @@
         </div>
 
         <p class="form-intro">
-          Please complete the form below. Fields marked with an asterisk (*) are required.
-          For GitHub Pages, this form is currently a front-end display. To receive real
-          submissions, connect it later to Google Forms, Formspree, Netlify Forms, or a backend service.
+          Please complete the manuscript metadata form below. Fields marked with an
+          asterisk (*) are required. This form will send author and manuscript
+          information to the JEEM editorial office through Formspree. After completing
+          this form, authors must upload the manuscript file through the official
+          JEEM Google Form.
         </p>
 
-       <form 
-  class="journal-form" 
-  id="journalSubmissionForm"
-  action="https://formspree.io/f/xkoydqya"
-  method="POST"
->
-         <input type="hidden" name="_subject" value="New JEEM Manuscript Submission" />
-<input type="hidden" name="_next" value="https://journal-ecojeem.org/thank-you.html" />
+        <form 
+          class="journal-form" 
+          id="journalSubmissionForm"
+          action="https://formspree.io/f/xkoydqya"
+          method="POST"
+        >
+          <input type="hidden" name="_subject" value="New JEEM Manuscript Submission" />
+          <input type="hidden" name="_next" value="https://journal-ecojeem.org/thank-you.html" />
 
-<input 
-  type="hidden" 
-  name="journal_name" 
-  value="Journal of Ecology and Environmental Management (JEEM)" 
-/>
+          <input 
+            type="hidden" 
+            name="journal_name" 
+            value="Journal of Ecology and Environmental Management (JEEM)" 
+          />
 
-<input 
-  type="hidden" 
-  name="submission_email" 
-  value="submission@journal-ecojeem.org" 
-/>
-  <input type="hidden" name="form-name" value="manuscript-submission" />
+          <input 
+            type="hidden" 
+            name="submission_email" 
+            value="submission@journal-ecojeem.org" 
+          />
 
-  <p class="hidden-field">
-    <label>
-      Don’t fill this out if you’re human:
-      <input name="bot-field" />
-    </label>
-  </p>
+          <input 
+            type="hidden" 
+            name="manuscript_upload_instruction" 
+            value="Manuscript files are uploaded through the official JEEM Google Form." 
+          />
+
+          <input 
+            type="hidden" 
+            name="google_form_upload_link" 
+            value="https://docs.google.com/forms/d/e/1FAIpQLSfm-sio7srmPKivMKtMRiOFDDOjawf96Ulwo80NxAZSfZ6s_g/viewform?usp=publish-editor" 
+          />
 
           <!-- SECTION 1 -->
           <div class="form-section">
@@ -214,32 +238,66 @@
             <div class="form-grid">
               <div class="form-group">
                 <label for="authorName">Full Name *</label>
-                <input type="text" id="authorName" name="authorName" placeholder="Enter full name" required />
+                <input 
+                  type="text" 
+                  id="authorName" 
+                  name="corresponding_author_name" 
+                  placeholder="Enter full name" 
+                  required 
+                />
               </div>
 
               <div class="form-group">
                 <label for="authorEmail">Email Address *</label>
-                <input type="email" id="authorEmail" name="authorEmail" placeholder="name@example.com" required />
+                <input 
+                  type="email" 
+                  id="authorEmail" 
+                  name="email" 
+                  placeholder="name@example.com" 
+                  required 
+                />
               </div>
 
               <div class="form-group">
                 <label for="affiliation">Institution / Affiliation *</label>
-                <input type="text" id="affiliation" name="affiliation" placeholder="University / Institution" required />
+                <input 
+                  type="text" 
+                  id="affiliation" 
+                  name="affiliation" 
+                  placeholder="University / Institution" 
+                  required 
+                />
               </div>
 
               <div class="form-group">
                 <label for="country">Country *</label>
-                <input type="text" id="country" name="country" placeholder="Country" required />
+                <input 
+                  type="text" 
+                  id="country" 
+                  name="country" 
+                  placeholder="Country" 
+                  required 
+                />
               </div>
 
               <div class="form-group">
                 <label for="orcid">ORCID ID</label>
-                <input type="text" id="orcid" name="orcid" placeholder="0000-0000-0000-0000" />
+                <input 
+                  type="text" 
+                  id="orcid" 
+                  name="orcid" 
+                  placeholder="0000-0000-0000-0000" 
+                />
               </div>
 
               <div class="form-group">
                 <label for="phone">Phone / WhatsApp</label>
-                <input type="text" id="phone" name="phone" placeholder="+62..." />
+                <input 
+                  type="text" 
+                  id="phone" 
+                  name="phone" 
+                  placeholder="+62..." 
+                />
               </div>
             </div>
           </div>
@@ -250,106 +308,175 @@
 
             <div class="form-group">
               <label for="manuscriptTitle">Manuscript Title *</label>
-              <input type="text" id="manuscriptTitle" name="manuscriptTitle" placeholder="Enter manuscript title" required />
+              <input 
+                type="text" 
+                id="manuscriptTitle" 
+                name="manuscript_title" 
+                placeholder="Enter manuscript title" 
+                required 
+              />
             </div>
 
             <div class="form-grid">
               <div class="form-group">
                 <label for="articleType">Article Type *</label>
-                <select id="articleType" name="articleType" required>
+                <select id="articleType" name="article_type" required>
                   <option value="">Select article type</option>
-                  <option value="Research Article">Research Article</option>
+                  <option value="Original Research Article">Original Research Article</option>
                   <option value="Review Article">Review Article</option>
                   <option value="Short Communication">Short Communication</option>
                   <option value="Policy Brief">Policy Brief</option>
                   <option value="Case Study">Case Study</option>
+                  <option value="Technical Note">Technical Note</option>
                 </select>
               </div>
 
               <div class="form-group">
                 <label for="field">Field / Scope *</label>
-                <select id="field" name="field" required>
+                <select id="field" name="field_scope" required>
                   <option value="">Select field</option>
                   <option value="Ecology">Ecology</option>
                   <option value="Environmental Management">Environmental Management</option>
                   <option value="Coastal and Marine Environment">Coastal and Marine Environment</option>
                   <option value="Biodiversity Conservation">Biodiversity Conservation</option>
+                  <option value="Natural Resource Conservation">Natural Resource Conservation</option>
                   <option value="Climate Change">Climate Change</option>
+                  <option value="Pollution and Environmental Quality">Pollution and Environmental Quality</option>
                   <option value="Sustainable Development">Sustainable Development</option>
                   <option value="Environmental Policy and Governance">Environmental Policy and Governance</option>
+                  <option value="Marine and Fisheries Sustainability">Marine and Fisheries Sustainability</option>
                 </select>
               </div>
             </div>
 
             <div class="form-group">
               <label for="abstract">Abstract *</label>
-              <textarea id="abstract" name="abstract" rows="7" placeholder="Write abstract here..." required></textarea>
+              <textarea 
+                id="abstract" 
+                name="abstract" 
+                rows="7" 
+                placeholder="Write abstract here..." 
+                required
+              ></textarea>
               <small>Recommended length: 150–250 words.</small>
             </div>
 
             <div class="form-group">
               <label for="keywords">Keywords *</label>
-              <input type="text" id="keywords" name="keywords" placeholder="Example: mangrove, coastal resilience, ecology, sustainability" required />
+              <input 
+                type="text" 
+                id="keywords" 
+                name="keywords" 
+                placeholder="Example: mangrove, coastal resilience, ecology, sustainability" 
+                required 
+              />
               <small>Separate keywords using commas.</small>
             </div>
 
             <div class="form-group">
               <label for="coauthors">Co-Authors</label>
-              <textarea id="coauthors" name="coauthors" rows="4" placeholder="Write co-author names and affiliations"></textarea>
+              <textarea 
+                id="coauthors" 
+                name="coauthors" 
+                rows="4" 
+                placeholder="Write co-author names and affiliations"
+              ></textarea>
             </div>
           </div>
 
           <!-- SECTION 3 -->
           <div class="form-section">
-            <h3>3. File Upload Information</h3>
+            <h3>3. Manuscript File Upload</h3>
 
             <div class="upload-note">
               <strong>Important:</strong>
-              GitHub Pages cannot process file uploads directly. This file input is for interface design only.
-              For real submission, connect the form to Google Forms, Formspree, Netlify Forms, or email workflow.
+              Manuscript files must be uploaded through the official JEEM Google Form.
+              Please complete this metadata form first, then upload your manuscript file
+              using the button below. Use the same manuscript title and corresponding
+              author email in both forms.
             </div>
 
-            <div class="form-grid">
-              <div class="form-group">
-                <label for="manuscriptFile">Main Manuscript File *</label>
-                <input type="file" id="manuscriptFile" name="manuscriptFile" accept=".doc,.docx,.pdf" required />
-                <small>Accepted format: .doc, .docx, .pdf</small>
-              </div>
+            <div class="google-upload-box">
+              <h4>Upload Manuscript File</h4>
 
-              <div class="form-group">
-                <label for="supplementaryFile">Supplementary File</label>
-                <input type="file" id="supplementaryFile" name="supplementaryFile" accept=".doc,.docx,.pdf,.xls,.xlsx,.zip" />
-                <small>Optional supporting data or additional documents.</small>
-              </div>
+              <p>
+                The main manuscript file and supplementary documents must be submitted
+                through the JEEM manuscript upload form. This allows the editorial office
+                to store manuscript files securely in Google Drive.
+              </p>
+
+              <a 
+                href="https://docs.google.com/forms/d/e/1FAIpQLSfm-sio7srmPKivMKtMRiOFDDOjawf96Ulwo80NxAZSfZ6s_g/viewform?usp=publish-editor" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                class="google-upload-button"
+              >
+                Upload Manuscript via Google Form
+              </a>
+
+              <small>
+                Accepted files: .doc, .docx, and .pdf. Supplementary files may include
+                tables, figures, datasets, or other supporting documents.
+              </small>
             </div>
           </div>
 
-         <!-- SECTION 4 -->
-<div class="form-section">
-  <h3>4. Declarations</h3>
+          <!-- SECTION 4 -->
+          <div class="form-section">
+            <h3>4. Declarations</h3>
 
-  <div class="checkbox-group">
-    <label>
-      <input type="checkbox" name="declaration_originality" value="yes" required />
-      <span>The manuscript is original and has not been published elsewhere. *</span>
-    </label>
+            <div class="checkbox-group">
+              <label>
+                <input 
+                  type="checkbox" 
+                  name="declaration_originality" 
+                  value="yes" 
+                  required 
+                />
+                <span>The manuscript is original and has not been published elsewhere. *</span>
+              </label>
 
-    <label>
-      <input type="checkbox" name="declaration_not_under_review" value="yes" required />
-      <span>The manuscript is not currently under review by another journal. *</span>
-    </label>
+              <label>
+                <input 
+                  type="checkbox" 
+                  name="declaration_not_under_review" 
+                  value="yes" 
+                  required 
+                />
+                <span>The manuscript is not currently under review by another journal. *</span>
+              </label>
 
-    <label>
-      <input type="checkbox" name="declaration_author_approval" value="yes" required />
-      <span>All authors have approved the manuscript submission. *</span>
-    </label>
+              <label>
+                <input 
+                  type="checkbox" 
+                  name="declaration_author_approval" 
+                  value="yes" 
+                  required 
+                />
+                <span>All authors have approved the manuscript submission. *</span>
+              </label>
 
-    <label>
-      <input type="checkbox" name="declaration_ethics" value="yes" required />
-      <span>The manuscript complies with research and publication ethics. *</span>
-    </label>
-  </div>
-</div>
+              <label>
+                <input 
+                  type="checkbox" 
+                  name="declaration_ethics" 
+                  value="yes" 
+                  required 
+                />
+                <span>The manuscript complies with research and publication ethics. *</span>
+              </label>
+
+              <label>
+                <input 
+                  type="checkbox" 
+                  name="declaration_google_form_upload" 
+                  value="yes" 
+                  required 
+                />
+                <span>I understand that the manuscript file must be uploaded through the official JEEM Google Form. *</span>
+              </label>
+            </div>
+          </div>
 
           <!-- SECTION 5 -->
           <div class="form-section">
@@ -357,13 +484,18 @@
 
             <div class="form-group">
               <label for="comments">Comments for Editor</label>
-              <textarea id="comments" name="comments" rows="5" placeholder="Write any notes for the editorial team"></textarea>
+              <textarea 
+                id="comments" 
+                name="comments_for_editor" 
+                rows="5" 
+                placeholder="Write any notes for the editorial team"
+              ></textarea>
             </div>
           </div>
 
           <div class="form-actions">
             <button type="reset" class="btn-reset">Reset Form</button>
-            <button type="submit" class="btn-submit">Submit Manuscript</button>
+            <button type="submit" class="btn-submit">Submit Manuscript Metadata</button>
           </div>
 
           <div class="form-message" id="formMessage"></div>
@@ -379,7 +511,9 @@
       <div class="side-card call-card">
         <h3>Ready to Submit?</h3>
         <p>
-          Make sure your manuscript follows the journal template and publication ethics.
+          Make sure your manuscript follows the journal scope, template, and
+          publication ethics. Complete the metadata form and upload the manuscript
+          file through the official Google Form.
         </p>
         <a href="#submission-form" class="submit-button">Go to Submission Form</a>
       </div>
@@ -387,12 +521,12 @@
       <div class="side-card">
         <h3>Submission Checklist</h3>
         <ul class="checklist">
-          <li>Manuscript file</li>
-          <li>Title and abstract</li>
-          <li>Keywords</li>
-          <li>Author information</li>
-          <li>Affiliation details</li>
+          <li>Manuscript title</li>
+          <li>Abstract and keywords</li>
+          <li>Corresponding author information</li>
+          <li>Author affiliation details</li>
           <li>Ethics declaration</li>
+          <li>Google Form manuscript upload</li>
         </ul>
       </div>
 
@@ -402,13 +536,27 @@
           <li>.doc</li>
           <li>.docx</li>
           <li>.pdf</li>
-          <li>.xls / .xlsx for supplementary data</li>
+          <li>Supplementary files through Google Form</li>
         </ul>
+      </div>
+
+      <div class="side-card">
+        <h3>Important Links</h3>
+        <a href="focus-scope.html">Focus and Scope</a>
+        <a href="publication-ethics.html">Publication Ethics</a>
+        <a 
+          href="https://docs.google.com/forms/d/e/1FAIpQLSfm-sio7srmPKivMKtMRiOFDDOjawf96Ulwo80NxAZSfZ6s_g/viewform?usp=publish-editor" 
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Upload Manuscript File
+        </a>
       </div>
 
       <div class="side-card journal-info">
         <h3>Editorial Contact</h3>
-        <p><strong>Email:</strong><br />journal.ecology@example.com</p>
+        <p><strong>Submission:</strong><br />submission@journal-ecojeem.org</p>
+        <p><strong>Editorial Office:</strong><br />editorial@journal-ecojeem.org</p>
         <p><strong>Office:</strong><br />Jakarta, Indonesia</p>
       </div>
 
@@ -420,26 +568,29 @@
   <footer class="footer">
     <div class="container footer-grid">
       <div>
-        <h3>JEML</h3>
+        <h3>JEEM</h3>
         <p>
           Journal of Ecology and Environmental Management publishes scientific works
-          in ecology, environment, conservation, sustainability, and coastal resilience.
+          in ecology, environment, conservation, sustainability, coastal resilience,
+          and environmental governance.
         </p>
       </div>
 
       <div>
         <h3>Quick Links</h3>
-        <a href="focus-scope.html">Focus and Scope</a>
         <a href="index.html">Home</a>
         <a href="index.html#about">About Journal</a>
+        <a href="focus-scope.html">Focus and Scope</a>
         <a href="index.html#current">Current Issue</a>
         <a href="submission.html">Submission</a>
+        <a href="publication-ethics.html">Publication Ethics</a>
       </div>
 
       <div>
         <h3>Contact</h3>
         <p>Jakarta, Indonesia</p>
         <p>editorial@journal-ecojeem.org</p>
+        <p>submission@journal-ecojeem.org</p>
       </div>
     </div>
 
